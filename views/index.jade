@@ -1,0 +1,9 @@
+extends layout
+
+block content
+  h1= title
+  button(onclick="location.reload();") 刷新
+  p 导入成功的产品
+  ul
+    each p, index in products
+      li #{index + 1}-#{p.name} (#{p.result})
