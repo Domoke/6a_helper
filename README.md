@@ -1,2 +1,2 @@
-# 6a_helper
-6a助手
+# a6_helper
+a6软件助手
